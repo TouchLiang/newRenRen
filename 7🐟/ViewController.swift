@@ -15,6 +15,18 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.cyan
         
+        let title = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
+        title.text = "这是一个Title"
+        title.sizeToFit()
+        title.center = view.center
+        view.addSubview(title)
+        
+        let title2 = UILabel(frame: CGRect(x: 0, y: 0, width: title.frame.size.width, height: title.frame.size.height))
+        title2.text = "这是一个Title x 2"
+        title2.sizeToFit()
+        title2.center = CGPoint(x: title.center.x, y: title.center.y + 40)
+        view.addSubview(title2)
+        
     }
 
     override func didReceiveMemoryWarning() {
