@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.cyan
         
         let title = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
-        title.text = "这是一个Title"
+        title.text = "这是一个Title"                
         title.sizeToFit()
         title.center = view.center
         view.addSubview(title)
@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         title2.sizeToFit()
         title2.center = CGPoint(x: title.center.x, y: title.center.y + 40)
         view.addSubview(title2)
+        
+        let title3 = UILabel(frame: CGRect(x: 0, y: 0, width: title.frame.size.width, height: title.frame.size.height))
+        title3.text = "这是一个Title x 3"
+        title3.sizeToFit()
+        title3.center = CGPoint(x: title.center.x, y: title2.center.y + 40)
+        view.addSubview(title3)
         
     }
 
