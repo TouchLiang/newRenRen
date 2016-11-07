@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9205C8051DCC6AF600502A2C /* MYButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205C8041DCC6AF600502A2C /* MYButtonController.swift */; };
 		920DAB041DC8E08A00C86EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920DAB031DC8E08A00C86EE6 /* AppDelegate.swift */; };
 		920DAB061DC8E08A00C86EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920DAB051DC8E08A00C86EE6 /* ViewController.swift */; };
 		920DAB0B1DC8E08A00C86EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920DAB0A1DC8E08A00C86EE6 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9205C8041DCC6AF600502A2C /* MYButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYButtonController.swift; sourceTree = "<group>"; };
 		920DAB001DC8E08A00C86EE6 /* 7🐟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7🐟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		920DAB031DC8E08A00C86EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		920DAB051DC8E08A00C86EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				920DAB031DC8E08A00C86EE6 /* AppDelegate.swift */,
 				920DAB051DC8E08A00C86EE6 /* ViewController.swift */,
+				9205C8041DCC6AF600502A2C /* MYButtonController.swift */,
 				920DAB0A1DC8E08A00C86EE6 /* Assets.xcassets */,
 				920DAB0C1DC8E08A00C86EE6 /* LaunchScreen.storyboard */,
 				920DAB0F1DC8E08A00C86EE6 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				920DAB061DC8E08A00C86EE6 /* ViewController.swift in Sources */,
+				9205C8051DCC6AF600502A2C /* MYButtonController.swift in Sources */,
 				920DAB041DC8E08A00C86EE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
